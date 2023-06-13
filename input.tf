@@ -45,7 +45,7 @@ variable "administrator_login_password" {
   default = "H@Sh1CoR3!"
 }
 
-variable "version" {
+variable "server_version" {
   type    = string
   default = "11"
 }
