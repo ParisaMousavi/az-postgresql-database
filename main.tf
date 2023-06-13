@@ -9,7 +9,7 @@ resource "azurerm_postgresql_server" "this" {
   auto_grow_enabled            = var.auto_grow_enabled
   administrator_login          = var.administrator_login
   administrator_login_password = var.administrator_login_password
-  version                      = var.version
+  version                      = var.server_version
   ssl_enforcement_enabled      = var.ssl_enforcement_enabled
   tags = merge(
     var.additional_tags,
